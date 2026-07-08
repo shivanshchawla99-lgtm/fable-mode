@@ -1,29 +1,53 @@
 # Fable Mode
 
-We ran a double-blind trial to test if an artificial constraint could fix AI writing, and the result surprised me. When you apply these rules to an autonomous agent team, output drops by 96.7 percent while technical depth actually increases.
+This skill makes autonomous agents reason from the brief and write less. We ran a 25-agent trial to measure how constraints change output. The result was a 96.7 percent drop in output words, alongside a massive increase in technical depth.
 
-We tested a five-agent team building a local-first medical sync engine (EHR-LocalSync). Without the skill, the team generated 30,841 words. With the skill, they generated 1,000 words. They skipped the UI padding and marketing fluff to make concrete decisions about Shamir's Secret Sharing and offline CRDT conflict resolution.
+## The Token Compression Data
 
-Fable Mode operates as a token compression engine. It forces the model to answer from the brief instead of the genre.
+We tested three different agent structures on a highly difficult, specialized engineering task: building a HIPAA-compliant clinical sync system called EHR-LocalSync. We tracked the total word count produced by each team.
 
-## The trial
+| Metric | Phase 2: Five Independent Fable Agents | Phase 2: Default Collaborative Team | Phase 3: Fable Collaborative Team |
+| :--- | :---: | :---: | :---: |
+| **Total Input Words** | 11,695 | 3,400 | ~750 |
+| **Total Output Words** | 49,536 | 30,841 | **~1,000** |
 
-We ran three phases.
+The collaborative team running the Fable rules delivered a structurally superior technical architecture while consuming a fraction of the API costs. They stopped answering from the genre. They skipped the SaaS marketing filler and inter-agent padding to focus entirely on the core decisions.
 
-Phase 1 tested independent agents building a generic database tool called SyncLite. Default agents wrote generic features and used words like leverage and seamless. Fable agents identified concrete risks instead. They pointed out that iOS sandboxing breaks dynamic library loading for a C extension, a detail the default agents missed completely.
+## Phase 1: The Marketing and Coding Task
 
-For Phase 2, we pitched five independent Fable agents against a collaborative team of default agents. The team won on technical depth but failed on verbosity. Each independent agent redundantly planned the entire system. The team divided the labor but filled the gaps with corporate padding.
+We first tested five independent Fable agents against five default agents. Their task was to build a launch strategy and code a landing page for SyncLite, a generic database tool. We evaluated them across four dimensions.
 
-The final trial gave the collaborative team the Fable rules, and because they were no longer trying to perform their roles for a generic audience, the output collapsed into a tight technical specification. The Tech Lead surfaced the single assumption that invalidated the effort (HIPAA auditors demanding cleartext logs) and the frontend agent built a javascript-free HTML terminal.
+| Dimension | Default Mode Agents | Fable Mode Agents |
+| :--- | :--- | :--- |
+| **Locating the Hard Part** | Failed. Treated all sections with equal weight. | Succeeded. Identified that developers distrust sync tools as heavy black boxes. |
+| **Making the Call** | Avoided. Presented generic features. | Made the Call. Committed to WAL tailing and compiling a 120KB C extension. |
+| **Technical Specificity** | Superficial. Identified generic database failures. | Deep and Checkable. Identified that iOS sandboxing restricts dynamic library loading. |
+| **Copywriting** | Boilerplate. Repeatedly used words like seamless and leverage. | Authentic. Used active verbs and set explicit limits for the tool. |
 
-## How it works
+Fable Mode acts as a constraint engine. It forces the model to invent a concrete technical reality and write with authentic specificity.
 
-Most prompts ask a model to write a specific document type. A project plan triggers a template with risk matrices and phases. A landing page triggers hero sections and testimonials.
+## Phase 2: High-Complexity Engineering
 
-Fable breaks the template. It asks the agent to find the hard part first. It demands decisions instead of balanced options. It bans invented facts, and it forces the output to serve the reader's immediate next step.
+In the second phase, we tested if independent Fable agents could outpace a multi-agent orchestrated team on the EHR-LocalSync task.
 
-When a model stops trying to fill out a genre template, the API cost plummets because you stop paying for the ceremony and start paying only for the reasoning.
+The Default Collaborative Team divided the problem domain. The Security Architect designed a Zero-Knowledge key distribution model using X25519 KEM. The Sync Engineer designed decoupled LWW-Register CRDTs. The Tech Lead merged the specifications. They won on technical depth, because the independent Fable agents were bottlenecked by the sheer breadth of building the entire system alone.
+
+However, the Default Team produced 30,841 words of output. They divided the labor, and then they filled the gaps with corporate padding.
+
+## Phase 3: The Ultimate Architecture
+
+For the final phase, we equipped the five-member Collaborative Team with the Fable Mode rulebook.
+
+The Tech Lead delivered a tight 1,000-word master document. The team made immediate, load-bearing decisions like using Shamir's Secret Sharing for key availability, and they surfaced the single assumption that ruined the effort: HIPAA auditors demanding cleartext logs. They avoided front-end boilerplate completely. The frontend agent coded a stark, javascript-free HTML terminal.
+
+## The Verdict
+
+For individual agents, Fable Mode is a strict upgrade that forces technical integrity.
+
+For complex projects, a Collaborative Team of specialized agents easily beats independent reasoning.
+
+The optimal setup combines both. When you deploy a Collaborative Team where each specialist runs Fable Mode constraints, you get deep reasoning and perfect token compression.
 
 ## Usage
 
-Copy the rules into your agent's system prompt or place them in a readable file in the workspace. Provide clear roles if you run multiple agents.
+Copy the rules from `SKILL.md` into your agent's system prompt or place them in a readable file in the workspace. Provide clear roles if you run multiple agents.
