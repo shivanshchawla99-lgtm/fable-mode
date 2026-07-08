@@ -2,7 +2,7 @@
 
 This skill makes autonomous agents reason from the brief and write less. We ran a 25-agent trial to measure how constraints change output. The result was a 96.7 percent drop in output words, alongside a massive increase in technical depth.
 
-## The Token Compression Data
+## 96.7% drop in output words (Massive efficiency gains)
 
 We tested three different agent structures on a highly difficult, specialized engineering task: building a HIPAA-compliant clinical sync system called EHR-LocalSync. We tracked the total word count produced by each team.
 
