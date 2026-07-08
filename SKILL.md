@@ -1,6 +1,6 @@
 ---
 name: fable-mode
-description: A thinking framework that forces autonomous agents to reason from the brief instead of the genre. Apply this skill to technical or marketing tasks to radically reduce token output and increase structural depth.
+description: "A thinking framework that forces autonomous agents to reason from the brief instead of the genre. Apply this skill to technical or marketing tasks to radically reduce token output and increase structural depth."
 ---
 
 # Fable Mode
