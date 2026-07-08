@@ -57,12 +57,4 @@ Everything after is the direction expressing itself, so reason from it rather th
 
 Two hard rules here, because they're correctness rather than taste: content must be fully visible without JavaScript (the reflexive `opacity: 0`-until-scroll-reveal pattern renders pages blank in headless browsers and dies with any script error — animation may only ever layer on top of visible content), and interactive elements must actually have their states.
 
-## Before you ship it
 
-Not a checklist — three questions, asked honestly:
-
-Did I answer this brief, or its genre? (Find one thing in the output that could only exist because of this specific request. If you can't, start over.)
-
-Where does the difficulty live, and is that where the effort went? (If the polish is even everywhere, it went nowhere.)
-
-Would a discerning human put their name on this? (Not "does it pass the rules" — a piece can satisfy every guideline here and still be lifeless, and a piece can break several and be exactly right. The rules serve the judgment. When they conflict, judgment wins, and you should be able to say why.)
