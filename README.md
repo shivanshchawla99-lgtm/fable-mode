@@ -26,10 +26,10 @@ We first tested five independent Fable agents against five default agents. Their
 
 We also tracked the average token consumption per agent during this first phase.
 
-| Metric | Default Mode | Fable Mode | Change |
-| :--- | :---: | :---: | :---: |
-| **Input Word Count** | 1,003 | 3,439 | +242% |
-| **Output Word Count** | 7,557 | 5,871 | -22% |
+| Metric | Default Mode | Fable Mode | Change | Expected Price / Agent | Notes |
+| :--- | :---: | :---: | :---: | :---: | :--- |
+| **Input Word Count** | 1,003 | 3,439 | +242% | $0.004 → $0.014 | Increase is due to the skill context |
+| **Output Word Count** | 7,557 | 5,871 | -22% | $0.151 → $0.117 | |
 
 The Fable system prompt is large, so input tokens rose. But the output dropped by 22 percent because the agents stopped generating boilerplate. Since output tokens cost significantly more than input tokens, the net result was a 13.8 percent reduction in total API costs per agent.
 
