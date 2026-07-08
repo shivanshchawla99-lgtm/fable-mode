@@ -24,6 +24,15 @@ We first tested five independent Fable agents against five default agents. Their
 | **Technical Specificity** | Superficial. Identified generic database failures. | Deep and Checkable. Identified that iOS sandboxing restricts dynamic library loading. |
 | **Copywriting** | Boilerplate. Repeatedly used words like seamless and leverage. | Authentic. Used active verbs and set explicit limits for the tool. |
 
+We also tracked the average token consumption per agent during this first phase.
+
+| Metric | Default Mode | Fable Mode | Change |
+| :--- | :---: | :---: | :---: |
+| **Input Word Count** | 1,003 | 3,439 | +242% |
+| **Output Word Count** | 7,557 | 5,871 | -22% |
+
+The Fable system prompt is large, so input tokens rose. But the output dropped by 22 percent because the agents stopped generating boilerplate. Since output tokens cost significantly more than input tokens, the net result was a 13.8 percent reduction in total API costs per agent.
+
 Fable Mode acts as a constraint engine. It forces the model to invent a concrete technical reality and write with authentic specificity.
 
 ## Phase 2: High-Complexity Engineering
