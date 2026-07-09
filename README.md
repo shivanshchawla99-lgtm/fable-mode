@@ -13,6 +13,10 @@ We tested three different agent structures on a highly difficult, specialized en
 
 The collaborative team running the Fable rules delivered a structurally superior technical architecture while consuming a fraction of the API costs. They stopped answering from the genre. They skipped the SaaS marketing filler and inter-agent padding to focus entirely on the core decisions.
 
+During Phase 2, the default subagents generated massive documents filled with boilerplate. One frontend agent alone output 11,106 words. When the subagents sent those documents back to the orchestrator, they completely blew up the Tech Lead's input token count. The bloat compounded in both directions.
+
+During Phase 3, the Fable constraints forced compression across the entire team. The Tech Lead sent tightly scoped, 140-word briefs without any conversational ceremony. The subagents replied with equally compressed architectures and omitted the SaaS filler. Because the agents stopped generating boilerplate outputs, they stopped feeding each other bloated inputs. The constraints broke the feedback loop.
+
 ## Phase 1: The Marketing and Coding Task
 
 We first tested five independent Fable agents against five default agents. Their task was to build a launch strategy and code a landing page for SyncLite, a generic database tool. We evaluated them across four dimensions.
