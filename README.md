@@ -6,10 +6,10 @@ This skill makes autonomous agents reason from the brief and write less. We ran 
 
 We tested three different agent structures on a highly difficult, specialized engineering task: building a HIPAA-compliant clinical sync system called EHR-LocalSync. We tracked the total word count produced by each team.
 
-| Metric | Phase 2: Five Independent Fable Agents | Phase 2: Default Collaborative Team | Phase 3: Fable Collaborative Team |
-| :--- | :---: | :---: | :---: |
-| **Total Input Words** | 11,695 | 3,400 | ~750 |
-| **Total Output Words** | 49,536 | 30,841 | **~1,000** |
+| Metric | Phase 2: Default Collaborative Team | Phase 3: Fable Collaborative Team |
+| :--- | :---: | :---: |
+| **Total Input Words** | 3,400 | ~750 |
+| **Total Output Words** | 30,841 | **~1,000** |
 
 The collaborative team running the Fable rules delivered a structurally superior technical architecture while consuming a fraction of the API costs. They stopped answering from the genre. They skipped the SaaS marketing filler and inter-agent padding to focus entirely on the core decisions.
 
