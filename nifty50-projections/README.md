@@ -1,10 +1,80 @@
-# Nifty 50: 3-year growth projections (Sep 2026 to Sep 2029)
+# Nifty 50: earnings growth (CAGR) projections
 
-Prices are the NSE close on **30 Sep 2026**. That is also the day **BSE Ltd replaced Wipro** in the index, so BSE is included and Wipro is not.
+Constituents as of **30 Sep 2026**, the day **BSE Ltd replaced Wipro** in the index.
 
-> **Not investment advice.** These projections are a mechanical extension of sell-side consensus. They are not forecasts I stand behind. Consensus 12-month targets have historically run optimistic, because the median stock's target sits well above its price in almost every market. Treat the **bear column as a real possibility, not a tail**.
+## Earnings CAGR (EPS / PAT), FY26 → FY28E
 
-## How the numbers are built
+**What this is:** each company's earnings growth rate, as forecast by one named broker in a published result update. Where a broker gave a CAGR, it is used directly. Where it only gave EPS figures, the CAGR is computed from them and the numbers are shown in the Source column.
+
+**Read these caveats before the table:**
+- **It's mostly a 2-year horizon (FY26 actual → FY28 estimate), not 3.** Indian brokers rarely publish FY29 estimates. A few rows use FY25–28E, and the Period column says which.
+- **One broker per stock, not a consensus.** Consensus databases (Trendlyne, Screener, Bloomberg) are blocked from this environment, so figures came from web-search excerpts of broker reports. Different brokers often disagree by 5–10 points; the Note column records disagreements where search surfaced them.
+- **Metrics differ.** Most rows are EPS or PAT. Tata Steel, Hindalco, Max Healthcare and Reliance show **EBITDA as a proxy**, and those are marked. Insurers (SBI Life, HDFC Life) are normally valued on VNB growth, not PAT.
+- **Low bases inflate some numbers.** Eternal (105%), Jio Financial (46%), Coal India and Dr Reddy's start from a depressed or tiny FY26 base.
+- **11 stocks have no figure** (bottom of the table). Search did not surface a usable broker CAGR for them.
+
+**Typical figure:** the median across the 34 rows that are true EPS/PAT forecasts (excluding the EBITDA proxies and Eternal) is **~16% a year**, a little above Nifty consensus EPS growth for FY27–28 (~9% and ~17%, or ~13% a year).
+
+> **Not investment advice.** These are broker forecasts, which have historically been revised down more often than up.
+
+| # | Stock | Sector | Earnings CAGR | Period | Metric | Source | Note |
+|---|---|---|---:|---|---|---|---|
+| 1 | Eternal (Zomato) (ETERNAL) | Consumer Internet | **105%** | FY26-28E | EPS | Axis Direct Q1FY27 | from a tiny FY26 base (PAT 366 cr); not comparable |
+| 2 | Jio Financial Services (JIOFIN) | NBFC | **46%** | FY26-28E | Consolidated PAT | Motilal Oswal (Jul 2026) | Geojit implies ~42%; small base |
+| 3 | Bharti Airtel (BHARTIARTL) | Telecom | **36%** | FY26-28E | Adj. PAT | Sharekhan Feb 2026 | PAT 19681 -> 36417 cr; FY26 base was an estimate |
+| 4 | Larsen & Toubro (LT) | Capital Goods | **28%** | FY26-28E | Core EPS | ICICI Direct Q4FY26 / JM Financial |  |
+| 5 | Bajaj Finance (BAJFINANCE) | NBFC | **27%** | FY26-28E | PAT | Axis Direct | a second (ICICI Direct) figure in search looked inconsistent |
+| 6 | Hindalco (HINDALCO) | Metals | **26%** | FY26-28E | EBITDA (proxy) | Brokerages (LME > $3000/t) | no EPS CAGR found; EBITDA proxy |
+| 7 | Tata Steel (TATASTEEL) | Metals | **25%** | FY25-28E | EBITDA (proxy) | ICICI Direct / Axis Q4FY26 | no EPS CAGR found; EBITDA proxy |
+| 8 | Axis Bank (AXISBANK) | Private Bank | **23%** | FY26-28E | PAT | ICICI Direct Q4FY26 |  |
+| 9 | Trent (TRENT) | Retail | **23%** | FY26-28E | PAT | ICICI Direct Q4FY26 | summary gave 23/25/23 without labels; PAT assumed third |
+| 10 | Kotak Mahindra Bank (KOTAKBANK) | Private Bank | **21%** | FY26-28E | Earnings | Axis Direct May 2026 |  |
+| 11 | Max Healthcare (MAXHEALTH) | Healthcare | **21%** | FY26-28E | EBITDA (proxy) | Axis Direct / PL Capital | no PAT CAGR found; EBITDA proxy |
+| 12 | Adani Ports & SEZ (ADANIPORTS) | Ports & Logistics | **20%** | FY26-28E | PAT | ICICI Direct | PL Capital: 23% over FY25-28E |
+| 13 | Apollo Hospitals (APOLLOHOSP) | Healthcare | **20%** | FY26-28E | PAT | ICICI Direct Q4FY26 |  |
+| 14 | Tata Consumer Products (TATACONSUM) | FMCG | **19%** | FY26-28E | PAT | Motilal Oswal (May 2026) |  |
+| 15 | UltraTech Cement (ULTRACEMCO) | Cement | **18%** | FY26-28E | Earnings | Broker note Q4FY26 |  |
+| 16 | HDFC Bank (HDFCBANK) | Private Bank | **17%** | FY26-28E | Earnings | ICICI Direct Q4FY26 | summary listed 15/18/17/18 for credit/deposit/earnings; mapping ambiguous |
+| 17 | Titan Company (TITAN) | Consumer Discretionary | **17%** | FY26-28E | EPS | ICICI Direct Q4FY26 (57.9 -> 79.7) |  |
+| 18 | Bharat Electronics (BEL) | Defence | **17%** | FY26-28E | PAT | Analysts via Business Standard (May 2026) |  |
+| 19 | Bajaj Finserv (BAJAJFINSV) | Financial Holding | **17%** | FY26-28E | PAT | Motilal Oswal |  |
+| 20 | Maruti Suzuki (MARUTI) | Auto | **16%** | FY26-28E | Earnings | Analysts via Business Standard (Apr 2026) |  |
+| 21 | Shriram Finance (SHRIRAMFIN) | NBFC | **16%** | FY26-28E | Earnings | Axis Direct |  |
+| 22 | Asian Paints (ASIANPAINT) | Consumer Durables | **14%** | FY26-28E | EPS | ICICI Direct Q4FY26 |  |
+| 23 | Nestle India (NESTLEIND) | FMCG | **14%** | FY26-28E | EPS | PL Capital / ICICI Securities | range 11-17% across brokers |
+| 24 | Bajaj Auto (BAJAJ-AUTO) | Auto | **13%** | FY26-28E | EPS | ICICI Direct Q4FY26 (351.8 -> 450.8) | Jefferies 13% FY25-28E |
+| 25 | Coal India (COALINDIA) | Mining | **13%** | FY26-28E | EPS | ICICI Direct Q4FY26 (50.5 -> 64.6) | rebound off a weak FY26 (-12% PAT) |
+| 26 | Eicher Motors (EICHERMOT) | Auto | **12%** | FY25-28E | PAT (Royal Enfield) | Broker note Q2FY26 | low confidence |
+| 27 | Reliance Industries (RELIANCE) | Conglomerate | **10%** | FY26-28E | EBITDA (proxy) | Motilal Oswal 4QFY26 review | no EPS CAGR found; EBITDA used as proxy |
+| 28 | NTPC (NTPC) | Power | **10%** | FY26-28E | PAT | ICICI Direct | 11.2% over FY25-28E |
+| 29 | State Bank of India (SBIN) | PSU Bank | **9%** | FY26-28E | Earnings | Axis Direct |  |
+| 30 | Mahindra & Mahindra (M&M) | Auto | **9%** | FY26-28E | EPS | ICICI Direct Q4FY26 (131.1 -> 156.0) | another broker: ~17% core EPS CAGR FY25-28E |
+| 31 | Sun Pharma (SUNPHARMA) | Pharma | **9%** | FY26-28E | EPS | ICICI Direct Q3FY26 (50.1 -> 59.7) | organic; Q4 update adds an acquisition that distorts FY27-28 |
+| 32 | HCL Technologies (HCLTECH) | IT Services | **9%** | FY25-28E | INR PAT | Motilal Oswal |  |
+| 33 | SBI Life (SBILIFE) | Insurance | **8%** | FY26-28E | PAT | Axis Direct / ICICI Direct | insurers are valued on VNB, which is seen growing 13% CAGR |
+| 34 | Cipla (CIPLA) | Pharma | **8%** | FY26-28E | EPS (derived) | ICICI Securities | derived: 22.4x FY27E vs 19.2x FY28E P/E; FY27 EPS guided flat |
+| 35 | Power Grid (POWERGRID) | Power | **7%** | FY26-28E | EPS | PL Capital Q4FY26 | broker states 6-8% |
+| 36 | Infosys (INFY) | IT Services | **7%** | FY26-28E | EPS (derived) | ICICI Direct Q4FY26 | derived: TP 1550 at 19x FY28E -> EPS ~81.6 vs FY26A ~71.6 |
+| 37 | Tata Consultancy Services (TCS) | IT Services | **6%** | FY26-28E | EPS | Analyst note (FY28E EPS 164 vs FY26A 146) | low confidence; ICICI Direct implied 3.5-10% |
+| 38 | Hindustan Unilever (HINDUNILVR) | FMCG | **5%** | FY25-28E | PAT | Axis Direct Q4FY26 | brokers describe single-digit EPS CAGR |
+| 39 | Dr Reddy's Labs (DRREDDY) | Pharma | **3%** | FY26-28E | EPS | Dolat Capital Q4FY26 | ICICI Direct adj. EPS 53.6 -> 68.4 implies ~13%; wide disagreement |
+| – | Adani Enterprises (ADANIENT) | Diversified / Infra | n/a | | | | no figure found |
+| – | BSE Ltd (new entrant) (BSE) | Capital Markets | n/a | | | | no figure found; FY26 EPS doubled to 60.6 |
+| – | Grasim Industries (GRASIM) | Cement / Diversified | n/a | | | | no figure found |
+| – | HDFC Life (HDFCLIFE) | Insurance | n/a | | | | no PAT figure found; insurers valued on VNB |
+| – | ICICI Bank (ICICIBANK) | Private Bank | n/a | | | | no figure found; MOFSL sees banking-sector earnings at 15% CAGR FY26-28 with private banks ahead |
+| – | ITC (ITC) | FMCG | n/a | | | | no figure found; PL Capital cut FY27/28E EPS by 15%/10% after Q1FY27 PAT fell 27% on excise |
+| – | InterGlobe Aviation (INDIGO) | Aviation | n/a | | | | no clean base; Motilal Oswal EPS FY27E 139.6 -> FY28E 223 |
+| – | JSW Steel (JSWSTEEL) | Metals | n/a | | | | no figure found; ICICI Direct EBITDA/t 8.8k -> 10.8k FY26-28E |
+| – | ONGC (ONGC) | Oil & Gas | n/a | | | | no figure found; ICICI Securities raised FY27E EPS 12.6% after Q1FY27 |
+| – | Tata Motors Passenger Vehicles (TMPV) | Auto | n/a | | | | no figure found |
+| – | Tech Mahindra (TECHM) | IT Services | n/a | | | | no figure found; ICICI Direct sees EBIT margin 12.6% -> 14.9% on ~5% USD revenue CAGR |
+
+## Appendix: 3-year price projections (Sep 2026 → Sep 2029)
+
+This is the earlier price-based view, kept for reference. It extends 12-month analyst price targets, which have historically run optimistic, so treat its bear column as a real possibility.
+
+### How the numbers are built
 
 | Step | Source | What it does |
 |---|---|---|
@@ -18,7 +88,7 @@ Prices are the NSE close on **30 Sep 2026**. That is also the day **BSE Ltd repl
 
 **Across the 50 stocks:** median base-case CAGR is **~17%**, with a median range of **~3% (bear) to ~22% (bull)**. 16 stocks have a negative bear-case CAGR.
 
-## Ranked by base-case 3-year CAGR
+### Ranked by base-case 3-year CAGR
 
 | # | Stock | Sector | Price (₹) | 12m target (₹) | 12m upside | Analysts (% Buy) | Bear 3y (₹) | **Base 3y (₹)** | Bull 3y (₹) | **Base CAGR** | Range CAGR |
 |---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -73,7 +143,7 @@ Prices are the NSE close on **30 Sep 2026**. That is also the day **BSE Ltd repl
 | 49 | Coal India (COALINDIA) | Mining | 425 | 469 | +10% | 24 (58%) | 385 | **507** | 595 | **+6.1%** | -3% to +12% |
 | 50 | Dr Reddy's Labs (DRREDDY) | Pharma | 1,233 | 1,221 | -1% | 36 (36%) | 1,124 | **1,424** | 2,030 | **+4.9%** | -3% to +18% |
 
-## Readings worth flagging
+### Readings worth flagging
 
 - **Thin coverage:** Jio Financial (2 analysts) and Adani Enterprises (4) top or sit high in the table on very few targets. Their numbers are the least reliable.
 - **Split views:** Analysts are divided on Dr Reddy's (target below price), HCL Tech, Infosys, Tata Motors PV and BSE, each with a Buy share of 45% or less. On these, the base case is a coin-flip rather than a consensus.
@@ -82,5 +152,6 @@ Prices are the NSE close on **30 Sep 2026**. That is also the day **BSE Ltd repl
 
 ## Files
 
-- `nifty50_3yr_projections.csv` has every column, including the assumed growth rate per stock, so you can change the assumptions.
-- `data.csv` holds the raw consensus inputs. `python3 build.py` regenerates the CSV and a `table.md`.
+- `eps_cagr.csv` holds the earnings CAGR per stock, with period, metric, source and notes. `python3 earnings.py` regenerates `earnings_table.md` from it.
+- `nifty50_3yr_projections.csv` has the price projections. `data.csv` holds the INDmoney consensus inputs, and `python3 build.py` regenerates the CSV and a `table.md`.
+- `meta.py` holds company names, sectors and the growth assumptions used by the price model.
