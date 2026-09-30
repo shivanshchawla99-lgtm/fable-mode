@@ -1,0 +1,51 @@
+symbol,fy26_eps,basis,source
+SBIN,86.7,reported,Axis Direct FY26 annual report analysis
+ITC,16.52,reported (continuing ops),ITC FY26 results
+ONGC,32.93,reported (consolidated),ONGC FY26 results
+COALINDIA,50.46,reported,Coal India FY26 results
+HINDALCO,72.05,reported (basic),Hindalco FY26 results
+BSE,60.61,reported,BSE FY26 results
+CIPLA,48.03,reported (basic),Cipla FY26 results
+DRREDDY,51.48,reported (basic),Dr Reddy's FY26 results
+SUNPHARMA,47.8,reported (basic),Sun Pharma FY26 results
+TATACONSUM,15.58,reported (basic),Tata Consumer FY26 results
+BAJAJ-AUTO,351.8,reported,ICICI Direct Q4FY26
+TCS,146.0,reported,ICICI Direct Q1FY27 EPS table
+TITAN,57.9,reported,ICICI Direct Q4FY26
+ICICIBANK,75.89,reported (basic),ICICI Bank FY26 results
+BHARTIARTL,45.96,reported (basic),Bharti Airtel FY26 results
+HCLTECH,64.01,reported,HCLTech FY26 results
+AXISBANK,85.04,reported (basic),Axis Bank FY26 results
+HDFCBANK,49.4,computed,consolidated PAT 76030 cr / ~1538 cr shares
+RELIANCE,70.7,computed,consolidated PAT 95610 cr / ~1353 cr shares
+INFY,70.4,computed,FY25 EPS 63.39 x 1.11 (reported FY26 EPS growth 11%)
+TECHM,54.4,computed,FY26 PAT 4811 cr / ~88.5 cr shares
+KOTAKBANK,19.4,computed,consolidated PAT 19288 cr / ~994 cr shares (post 5:1 split)
+BAJFINANCE,30.51,reported,Bajaj Finance FY26 results
+SBILIFE,24.6,computed,PAT 2470 cr / ~100.2 cr shares
+JIOFIN,2.46,computed,PAT 1561 cr / ~635 cr shares
+TRENT,32.3,computed (bonus-adjusted),reported EPS 48.37 / 1.5 for 1:2 bonus
+HINDUNILVR,45.25,reported,HUL FY26 results
+NESTLEIND,18.38,reported,Nestle India FY26 results
+MARUTI,466.9,reported,Maruti Suzuki FY26 results
+LT,125.4,computed,recurring PAT 17238 cr / ~137.5 cr shares
+EICHERMOT,201.3,computed,PAT 5515 cr / ~27.4 cr shares
+NTPC,28.4,computed,consolidated PAT 27546 cr / ~969.7 cr shares
+POWERGRID,17.1,computed,consolidated PAT 15928 cr / ~930 cr shares
+BAJAJFINSV,61.3,computed,consolidated PAT 9801 cr / ~159.8 cr shares
+ASIANPAINT,44.3,computed,standalone PAT 4244 cr / ~95.9 cr shares
+TATASTEEL,8.7,computed,consolidated PAT 10886 cr / ~1248 cr shares
+HDFCLIFE,8.9,computed,PAT 1910 cr / ~215 cr shares
+APOLLOHOSP,135.0,computed,PAT 1941 cr / ~14.38 cr shares
+BEL,8.27,computed,PAT 6048 cr / ~731 cr shares
+ETERNAL,0.38,computed,PAT 366 cr / ~965 cr shares
+M&M,153.10,reported (consolidated),M&M FY26 results
+ULTRACEMCO,277.9,computed,consolidated PAT 8188 cr / ~29.47 cr shares
+GRASIM,72.9,computed,consolidated PAT 4966 cr / ~68.1 cr shares
+JSWSTEEL,91.25,reported,"JSW Steel FY26 results; Q4 includes a large exceptional gain, so P/E is flattered"
+ADANIPORTS,59.2,computed,PAT 12782 cr / ~216 cr shares
+MAXHEALTH,14.83,reported,Max Healthcare FY26 results
+SHRIRAMFIN,53.15,reported (basic),Shriram Finance FY26 results
+ADANIENT,72.0,computed,"PAT 9339 cr / ~129 cr shares (post 2025 rights issue); low confidence"
+INDIGO,,loss,"FY26 net loss of 2390 cr (forex + exceptionals); ex-items profit 7500 cr would be ~194/share"
+TMPV,,not meaningful,"FY26 distorted by JLR cyber-incident and demerger gain; standalone continuing EPS 10.43"

@@ -1,0 +1,51 @@
+symbol,company,sector,price,fy26_eps,eps_basis,eps_source,pe,earnings_cagr_pct,period,metric,source,fwd_pe,note
+ETERNAL,Eternal (Zomato),Consumer Internet,320.0,0.4,computed,PAT 366 cr / ~965 cr shares,842.1,105,FY26-28E,EPS,Axis Direct Q1FY27,200.4,from a tiny FY26 base (PAT 366 cr); not comparable
+JIOFIN,Jio Financial Services,NBFC,216.9,2.5,computed,PAT 1561 cr / ~635 cr shares,88.2,46,FY26-28E,Consolidated PAT,Motilal Oswal (Jul 2026),41.4,Geojit implies ~42%; small base
+BHARTIARTL,Bharti Airtel,Telecom,1757.0,46.0,reported (basic),Bharti Airtel FY26 results,38.2,36,FY26-28E,Adj. PAT,Sharekhan Feb 2026,20.7,PAT 19681 -> 36417 cr; FY26 base was an estimate
+LT,Larsen & Toubro,Capital Goods,3760.0,125.4,computed,recurring PAT 17238 cr / ~137.5 cr shares,30.0,28,FY26-28E,Core EPS,ICICI Direct Q4FY26 / JM Financial,18.3,
+BAJFINANCE,Bajaj Finance,NBFC,959.4,30.5,reported,Bajaj Finance FY26 results,31.4,27,FY26-28E,PAT,Axis Direct,19.5,a second (ICICI Direct) figure in search looked inconsistent
+HINDALCO,Hindalco,Metals,941.8,72.0,reported (basic),Hindalco FY26 results,13.1,26,FY26-28E,EBITDA (proxy),Brokerages (LME > $3000/t),,no EPS CAGR found; EBITDA proxy
+TATASTEEL,Tata Steel,Metals,184.3,8.7,computed,consolidated PAT 10886 cr / ~1248 cr shares,21.2,25,FY25-28E,EBITDA (proxy),ICICI Direct / Axis Q4FY26,,no EPS CAGR found; EBITDA proxy
+AXISBANK,Axis Bank,Private Bank,1226.0,85.0,reported (basic),Axis Bank FY26 results,14.4,23,FY26-28E,PAT,ICICI Direct Q4FY26,9.5,
+TRENT,Trent,Retail,2621.6,32.3,computed (bonus-adjusted),reported EPS 48.37 / 1.5 for 1:2 bonus,81.2,23,FY26-28E,PAT,ICICI Direct Q4FY26,53.6,summary gave 23/25/23 without labels; PAT assumed third
+KOTAKBANK,Kotak Mahindra Bank,Private Bank,417.0,19.4,computed,consolidated PAT 19288 cr / ~994 cr shares (post 5:1 split),21.5,21,FY26-28E,Earnings,Axis Direct May 2026,14.7,
+MAXHEALTH,Max Healthcare,Healthcare,929.8,14.8,reported,Max Healthcare FY26 results,62.7,21,FY26-28E,EBITDA (proxy),Axis Direct / PL Capital,,no PAT CAGR found; EBITDA proxy
+ADANIPORTS,Adani Ports & SEZ,Ports & Logistics,1798.3,59.2,computed,PAT 12782 cr / ~216 cr shares,30.4,20,FY26-28E,PAT,ICICI Direct,21.1,PL Capital: 23% over FY25-28E
+APOLLOHOSP,Apollo Hospitals,Healthcare,8165.5,135.0,computed,PAT 1941 cr / ~14.38 cr shares,60.5,20,FY26-28E,PAT,ICICI Direct Q4FY26,42.0,
+TATACONSUM,Tata Consumer Products,FMCG,949.5,15.6,reported (basic),Tata Consumer FY26 results,60.9,19,FY26-28E,PAT,Motilal Oswal (May 2026),43.0,
+ULTRACEMCO,UltraTech Cement,Cement,10956.0,277.9,computed,consolidated PAT 8188 cr / ~29.47 cr shares,39.4,18,FY26-28E,Earnings,Broker note Q4FY26,28.3,
+HDFCBANK,HDFC Bank,Private Bank,708.7,49.4,computed,consolidated PAT 76030 cr / ~1538 cr shares,14.3,17,FY26-28E,Earnings,ICICI Direct Q4FY26,10.5,summary listed 15/18/17/18 for credit/deposit/earnings; mapping ambiguous
+TITAN,Titan Company,Consumer Discretionary,4587.0,57.9,reported,ICICI Direct Q4FY26,79.2,17,FY26-28E,EPS,ICICI Direct Q4FY26 (57.9 -> 79.7),57.9,
+BEL,Bharat Electronics,Defence,388.3,8.3,computed,PAT 6048 cr / ~731 cr shares,47.0,17,FY26-28E,PAT,Analysts via Business Standard (May 2026),34.3,
+BAJAJFINSV,Bajaj Finserv,Financial Holding,1731.0,61.3,computed,consolidated PAT 9801 cr / ~159.8 cr shares,28.2,17,FY26-28E,PAT,Motilal Oswal,20.6,
+MARUTI,Maruti Suzuki,Auto,11967.0,466.9,reported,Maruti Suzuki FY26 results,25.6,16,FY26-28E,Earnings,Analysts via Business Standard (Apr 2026),19.0,
+SHRIRAMFIN,Shriram Finance,NBFC,982.7,53.1,reported (basic),Shriram Finance FY26 results,18.5,16,FY26-28E,Earnings,Axis Direct,13.7,
+ASIANPAINT,Asian Paints,Consumer Durables,2402.6,44.3,computed,standalone PAT 4244 cr / ~95.9 cr shares,54.2,14,FY26-28E,EPS,ICICI Direct Q4FY26,41.7,
+NESTLEIND,Nestle India,FMCG,1310.0,18.4,reported,Nestle India FY26 results,71.3,14,FY26-28E,EPS,PL Capital / ICICI Securities,54.8,range 11-17% across brokers
+BAJAJ-AUTO,Bajaj Auto,Auto,10874.0,351.8,reported,ICICI Direct Q4FY26,30.9,13,FY26-28E,EPS,ICICI Direct Q4FY26 (351.8 -> 450.8),24.2,Jefferies 13% FY25-28E
+COALINDIA,Coal India,Mining,425.0,50.5,reported,Coal India FY26 results,8.4,13,FY26-28E,EPS,ICICI Direct Q4FY26 (50.5 -> 64.6),6.6,rebound off a weak FY26 (-12% PAT)
+EICHERMOT,Eicher Motors,Auto,7150.0,201.3,computed,PAT 5515 cr / ~27.4 cr shares,35.5,12,FY25-28E,PAT (Royal Enfield),Broker note Q2FY26,,low confidence
+RELIANCE,Reliance Industries,Conglomerate,1187.0,70.7,computed,consolidated PAT 95610 cr / ~1353 cr shares,16.8,10,FY26-28E,EBITDA (proxy),Motilal Oswal 4QFY26 review,,no EPS CAGR found; EBITDA used as proxy
+NTPC,NTPC,Power,322.8,28.4,computed,consolidated PAT 27546 cr / ~969.7 cr shares,11.4,10,FY26-28E,PAT,ICICI Direct,9.4,11.2% over FY25-28E
+SBIN,State Bank of India,PSU Bank,959.5,86.7,reported,Axis Direct FY26 annual report analysis,11.1,9,FY26-28E,Earnings,Axis Direct,9.3,
+M&M,Mahindra & Mahindra,Auto,2950.0,153.1,reported (consolidated),M&M FY26 results,19.3,9,FY26-28E,EPS,ICICI Direct Q4FY26 (131.1 -> 156.0),16.2,another broker: ~17% core EPS CAGR FY25-28E
+SUNPHARMA,Sun Pharma,Pharma,1816.6,47.8,reported (basic),Sun Pharma FY26 results,38.0,9,FY26-28E,EPS,ICICI Direct Q3FY26 (50.1 -> 59.7),32.0,organic; Q4 update adds an acquisition that distorts FY27-28
+HCLTECH,HCL Technologies,IT Services,1230.0,64.0,reported,HCLTech FY26 results,19.2,9,FY25-28E,INR PAT,Motilal Oswal,,
+SBILIFE,SBI Life,Insurance,1696.4,24.6,computed,PAT 2470 cr / ~100.2 cr shares,69.0,8,FY26-28E,PAT,Axis Direct / ICICI Direct,59.1,"insurers are valued on VNB, which is seen growing 13% CAGR"
+CIPLA,Cipla,Pharma,1346.0,48.0,reported (basic),Cipla FY26 results,28.0,8,FY26-28E,EPS (derived),ICICI Securities,24.0,derived: 22.4x FY27E vs 19.2x FY28E P/E; FY27 EPS guided flat
+POWERGRID,Power Grid,Power,260.5,17.1,computed,consolidated PAT 15928 cr / ~930 cr shares,15.2,7,FY26-28E,EPS,PL Capital Q4FY26,13.3,broker states 6-8%
+INFY,Infosys,IT Services,994.1,70.4,computed,FY25 EPS 63.39 x 1.11 (reported FY26 EPS growth 11%),14.1,7,FY26-28E,EPS (derived),ICICI Direct Q4FY26,12.3,derived: TP 1550 at 19x FY28E -> EPS ~81.6 vs FY26A ~71.6
+TCS,Tata Consultancy Services,IT Services,2050.6,146.0,reported,ICICI Direct Q1FY27 EPS table,14.0,6,FY26-28E,EPS,Analyst note (FY28E EPS 164 vs FY26A 146),12.5,low confidence; ICICI Direct implied 3.5-10%
+HINDUNILVR,Hindustan Unilever,FMCG,1879.1,45.2,reported,HUL FY26 results,41.5,5,FY25-28E,PAT,Axis Direct Q4FY26,,brokers describe single-digit EPS CAGR
+DRREDDY,Dr Reddy's Labs,Pharma,1233.0,51.5,reported (basic),Dr Reddy's FY26 results,24.0,3,FY26-28E,EPS,Dolat Capital Q4FY26,22.6,ICICI Direct adj. EPS 53.6 -> 68.4 implies ~13%; wide disagreement
+ADANIENT,Adani Enterprises,Diversified / Infra,2903.4,72.0,computed,PAT 9339 cr / ~129 cr shares (post 2025 rights issue); low confidence,40.3,,,,,,no figure found
+BSE,BSE Ltd (new entrant),Capital Markets,3092.0,60.6,reported,BSE FY26 results,51.0,,,,,,no figure found; FY26 EPS doubled to 60.6
+GRASIM,Grasim Industries,Cement / Diversified,3061.9,72.9,computed,consolidated PAT 4966 cr / ~68.1 cr shares,42.0,,,,,,no figure found
+HDFCLIFE,HDFC Life,Insurance,521.2,8.9,computed,PAT 1910 cr / ~215 cr shares,58.6,,,,,,no PAT figure found; insurers valued on VNB
+ICICIBANK,ICICI Bank,Private Bank,1321.7,75.9,reported (basic),ICICI Bank FY26 results,17.4,,,,,,no figure found; MOFSL sees banking-sector earnings at 15% CAGR FY26-28 with private banks ahead
+ITC,ITC,FMCG,262.8,16.5,reported (continuing ops),ITC FY26 results,15.9,,,,,,no figure found; PL Capital cut FY27/28E EPS by 15%/10% after Q1FY27 PAT fell 27% on excise
+INDIGO,InterGlobe Aviation,Aviation,4984.0,,loss,FY26 net loss of 2390 cr (forex + exceptionals); ex-items profit 7500 cr would be ~194/share,,,,,,,no clean base; Motilal Oswal EPS FY27E 139.6 -> FY28E 223
+JSWSTEEL,JSW Steel,Metals,1253.4,91.2,reported,"JSW Steel FY26 results; Q4 includes a large exceptional gain, so P/E is flattered",13.7,,,,,,no figure found; ICICI Direct EBITDA/t 8.8k -> 10.8k FY26-28E
+ONGC,ONGC,Oil & Gas,225.8,32.9,reported (consolidated),ONGC FY26 results,6.9,,,,,,no figure found; ICICI Securities raised FY27E EPS 12.6% after Q1FY27
+TMPV,Tata Motors Passenger Vehicles,Auto,283.5,,not meaningful,FY26 distorted by JLR cyber-incident and demerger gain; standalone continuing EPS 10.43,,,,,,,no figure found
+TECHM,Tech Mahindra,IT Services,1524.0,54.4,computed,FY26 PAT 4811 cr / ~88.5 cr shares,28.0,,,,,,no figure found; ICICI Direct sees EBIT margin 12.6% -> 14.9% on ~5% USD revenue CAGR
